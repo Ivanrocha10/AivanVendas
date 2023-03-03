@@ -8,14 +8,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
-  <title>Bora Codar</title>
+  <title>AivanVendas</title>
 </head>
 <body>
   <main id="app" class="grid">
-
-
     <div class="box nps grid">
-      <div class="top">NPS geral</div>
+      <div class="top text-center">NPS geral</div>
       <div class="middle grid">
         <img src="./assets/smile.svg" alt="Feliz">
         Excelente!
@@ -25,12 +23,9 @@
         <span>75</span>
       </div>
     </div>
-
     <div class="box sell grid">
-
-      <div class="top">Vendas fechadas</div>
+      <div class="top text-center">Vendas fechadas</div>
       <div class="middle">
-
         <svg viewBox="0 0 232 232" style="--percentage: 70">
           <circle cx="50%" cy="50%" r="98.5" opacity="0.1" stroke="#D9D9D9" />
           <circle
@@ -53,7 +48,10 @@
             </linearGradient>
           </defs>
         </svg>
-
+        <div class="content">
+          <h3>70%</h3>
+          <p>Alcançada</p>
+        </div>
       </div>
       <div class="bottom">
         <div class="item">
@@ -66,12 +64,9 @@
         </div>
       </div>
     </div>
-
-
     <div class="box target grid">
-      <div class="top">Meta mensal</div>
+      <div class="top text-center">Meta mensal</div>
       <div class="middle">
-
         <svg viewBox="0 0 232 232" style="--percentage: 90">
           <circle cx="50%" cy="50%" r="98.5" opacity="0.1" stroke="#D9D9D9" />
           <circle
@@ -94,7 +89,10 @@
             </linearGradient>
           </defs>
         </svg>
-
+        <div class="content">
+          <h3>90%</h3>
+          <p>Alcançada</p>
+        </div>
       </div>
       <div class="bottom">
         <div class="item">
@@ -107,10 +105,55 @@
         </div>
       </div>
     </div>
-
-
-
-    <div class="box"></div>
+    <div class="box weekly-sell grid">
+      <div class="top">
+        Vendas por dia da semana.
+      </div> 
+      <div class="wrapper">
+        <div class="left grid">
+          <div class="most-sell grid">
+            <span>Dia com mais vendas</span>
+            Quarta-feira
+          </div>
+          <div class="less-sell grid">
+            <span>Dia com menos vendas</span>
+            Domingo
+          </div>
+        </div>
+        <div class="right">
+          <div class="bars">
+            <div class="bar-wrapper">
+              <div class="bar" style="--height: 3.9rem"></div>
+              <span>Dom</span>
+            </div>
+            <div class="bar-wrapper">
+              <div class="bar" style="--height: 11.5rem"></div>
+              <span>Seg</span>
+            </div>
+            <div class="bar-wrapper">
+              <div class="bar" style="--height: 7.6rem"></div>
+              <span>Ter</span>
+            </div>
+            <div class="bar-wrapper">
+              <div class="bar" style="--height: 15.9rem"></div>
+              <span>Qua</span>
+            </div>
+            <div class="bar-wrapper">
+              <div class="bar" style="--height: 12.9rem"></div>
+              <span>Qui</span>
+            </div>
+            <div class="bar-wrapper">
+              <div class="bar" style="--height: 12rem"></div>
+              <span>Sex</span>
+            </div>
+            <div class="bar-wrapper">
+              <div class="bar" style="--height: 6.9rem"></div>
+              <span>Sab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </body>
 </html>
