@@ -1,7 +1,7 @@
 
 # AivanVendas
 
-O projeto AivanVendas, foi criado com o objetido de ajudar empresas a acompanhar seus negócios e sua renda mensal.
+O projeto AivanVendas, foi criado com o objetivo de ajudar empresas a acompanhar seus negócios e sua renda mensal.
 
 
 ## Screenshots
